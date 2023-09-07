@@ -94,7 +94,10 @@
           </div>
           <div class="container">
             <div id="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4962.799116349581!2d-3.171557!3d51.542572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1c3c537fbdb5%3A0xccd59bd3abe2d4af!2sLlwyn%20Y%20Pia%20Rd%2C%20Cardiff%2C%20UK!5e0!3m2!1sen!2sin!4v1693131593686!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4962.799116349581!2d-3.171557!3d51.542572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1c3c537fbdb5%3A0xccd59bd3abe2d4af!2sLlwyn%20Y%20Pia%20Rd%2C%20Cardiff%2C%20UK!5e0!3m2!1sen!2sin!4v1693131593686!5m2!1sen!2sin"
+                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
 
@@ -122,13 +125,12 @@
           <div class="footer-info-single">
             <h2 class="title">Important Links</h2>
             <ul class="list-unstyled">
-              <li><a href="https://samarpan.co.uk/Website/index" title=""><i class="fa fa-angle-double-right"></i>
+              <li><a href="index.htm" title=""><i class="fa fa-angle-double-right"></i>
                   Home</a></li>
-              <li><a href="https://samarpan.co.uk/Website/about" title=""><i class="fa fa-angle-double-right"></i> About
+              <li><a href="about.htm" title=""><i class="fa fa-angle-double-right"></i> About
                   Us</a></li>
-              <li><a href="https://samarpan.co.uk/Website/classes" title=""><i class="fa fa-angle-double-right"></i>
+              <li><a href="classes.htm" title=""><i class="fa fa-angle-double-right"></i>
                   Classes</a></li>
-              <!-- <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Products</a></li> -->
             </ul>
           </div>
         </div>
@@ -137,15 +139,16 @@
           <div class="footer-info-single">
             <h2 class="title">Important Links</h2>
             <ul class="list-unstyled">
-              <li><a href="https://samarpan.co.uk/Website/events" title=""><i class="fa fa-angle-double-right"></i>
+              <li><a href="Events.htm" title=""><i class="fa fa-angle-double-right"></i>
                   Events</a></li>
-              <li><a href="https://samarpan.co.uk/Website/gallery" title=""><i class="fa fa-angle-double-right"></i>
+              <li><a href="Gallery.htm" title=""><i class="fa fa-angle-double-right"></i>
                   Gallery</a></li>
-              <li><a href="https://samarpan.co.uk/Website/contact" title=""><i class="fa fa-angle-double-right"></i>
+              <li><a href="ContactUs.htm" title=""><i class="fa fa-angle-double-right"></i>
                   Contact Us</a></li>
             </ul>
           </div>
         </div>
+
         <div class="col-md-3 col-sm-6">
           <div class="footer-info-single">
             <h2 class="title">Follow Us</h2>
@@ -153,8 +156,6 @@
               <a class="facebookBtn smGlobalBtn" href="https://www.facebook.com/samarpan.nrithyalaya" target="_blank">
               </a>
               <a class="twitterBtn smGlobalBtn" href="https://twitter.com/samarpan.nrithyalaya" target="_blank"></a>
-              <!-- <a class="linkedinBtn smGlobalBtn" href="#" target="_blank"></a> -->
-              <!--  <a class="youtubeBtn smGlobalBtn" href="#" target="_blank"></a>-->
               <a class="instagramBtn smGlobalBtn" href="https://www.instagram.com/samarpan_cardiff/"></a>
             </div>
           </div>
@@ -168,8 +169,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-6 copyright wow slideInUp">
-          <p> © 2020 Samarpan Nrithyalaya. All Rights Reserved.
-          </p>
+          <p> ©<span id="year"></span> Samarpan Nrithyalaya. All Rights Reserved.</p>
+          <script> document.getElementById("year").innerHTML = new Date().getFullYear()</script>
         </div>
         <div class="col-md-6 col-sm-6 design wow slideInUp">
           <p>Designed By <a href="https://svapps.in/" target="_blank"> SVAPPS</a></p>
