@@ -1,2 +1,2 @@
 # Samarpan
-Traditional Indian dance school website
+Traditional Indian dance school based in Cardiff's website
